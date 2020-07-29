@@ -14,7 +14,8 @@ class MyComponent extends Component {
         </span>
         <span>Joy </span>
         <span>React </span>
-        {'sk2'}
+        'sk22'
+        {this.children}
       </div>
     );
   }
