@@ -40,7 +40,7 @@ export class Component {
 
 export let JoyReact = {
   createElement(type, attributes, ...children) {
-
+    console.log('children: ', children);
     let elem;
     if (typeof type === "string") {
       elem = new ElementWrapper(type);
